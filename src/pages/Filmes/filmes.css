@@ -1,0 +1,58 @@
+.detalhes{
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 0 8px;
+    align-items: center;
+}
+
+.detalhes h1{
+    margin: 14px 0 ;
+}
+
+.detalhes img{
+    border-radius: 5px;
+    width: 900px;
+    max-width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.detalhes h3{
+    margin-top: 14px;
+}
+
+.detalhes span{
+    margin: 8px 0;
+}
+
+/* estilo dos botões */
+
+.botoes{
+    margin-right: 12px;
+    margin-top: 14px;
+    margin-left: 0;
+    font-size: 20px;
+    outline: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.botoes button:hover{
+    background-color: brown;
+    color: white;
+    transition: all 0.5s;
+}
+
+.botoes a{
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s;
+}
+
+.botoes a:hover{
+    color: white;
+}
